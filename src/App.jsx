@@ -7,6 +7,7 @@ import ThemeChange from "./pages/ThemeChange";
 import Todo from "./pages/TodoApp";
 import ImageSlider from "./pages/ImageSlider";
 import Accordion from "./pages/accondain";
+import Revision from "./pages/Revision";
 
 
 const App=()=>{
@@ -25,6 +26,7 @@ const App=()=>{
         <Route path="todo" element={<Todo/>}/>
         <Route path="slider" element={<ImageSlider/>}/>
         <Route path="accordian" element={<Accordion/>}/>
+        <Route path="revision" element={<Revision/>}/>
       
         </Route>
       </Routes>

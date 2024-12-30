@@ -10,6 +10,7 @@ const Layout=()=>{
        <Link to="theme">Theam-Change</Link>     || 
        <Link to="slider">Image-Slider</Link>     || 
        <Link to="accordian">Accordain-Component</Link>     || 
+       <Link to="revision">Revision</Link>     || 
        <hr color="red"/>
        <Outlet/>
        <hr color="red"/>
